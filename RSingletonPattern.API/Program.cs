@@ -1,4 +1,8 @@
+using RSingletonPattern.API.Settings;
+
 var builder = WebApplication.CreateBuilder(args);
+
+var rn = new RSingleton;
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
