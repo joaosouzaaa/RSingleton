@@ -3,6 +3,7 @@ using RSingletonPattern.API.Arguments;
 using RSingletonPattern.API.Interfaces.Services;
 
 namespace RSingletonPattern.API.Controllers;
+
 [Route("api/[controller]")]
 [ApiController]
 public sealed class RController(IRService rService) : ControllerBase
